@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <!-- Use the web component like any other element -->
+    <hello-world msg="I can even pass props!"></hello-world>
+
+    <hr />
+
+    <h3 class="mb-3">Clock Wiget</h3>
+    <clock-widget></clock-widget>
+
+    <hr />
+
+    <h3 class="mb-3">My Tasks</h3>
+    <todo-list></todo-list>
+</div>
